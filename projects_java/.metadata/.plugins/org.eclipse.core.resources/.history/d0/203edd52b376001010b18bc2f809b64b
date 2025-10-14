@@ -1,0 +1,15 @@
+package sla;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double baseone,basetwo,altura,area;
+		baseone=6f;
+		basetwo=7f;
+		altura=14f;
+		area= (baseone + basetwo) / 2f * altura;
+		System.out.println(area);
+
+	}
+
+}

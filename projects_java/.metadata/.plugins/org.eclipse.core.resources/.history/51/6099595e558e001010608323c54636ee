@@ -1,0 +1,30 @@
+package aplcation;
+
+import java.util.Scanner;
+
+public class Pares_impar {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		int n=sc.nextInt();
+		int[] numero= new int[n];
+		System.out.println("Digite o 1º número");
+		for(int i=1;i<numero.length;i++) {
+			System.out.printf("Digite %dº número",i+2);
+			numero[i]=sc.nextInt();
+		}
+		int pares=0;
+		for(int i=0;i<numero.length;i++) {
+			if(numero[i]%2==1) {
+				pares++;
+				
+			}
+		}
+		
+		System.out.printf("NUMEROS PARES: %d",pares);
+		sc.close();
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package aplcation;
+
+import java.util.Scanner;
+
+public class Pares_impar {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Quantos numeros voce vai digitar? ");
+		int n=sc.nextInt();
+		
+		int[] numero= new int[n];
+		
+		
+		System.out.println("Digite o 1º número");
+		for(int i=0;i<n;i++) {
+			
+			numero[i]=sc.nextInt();
+			if(i<n) {
+				System.out.printf("Digite número:");
+			}
+			
+		}
+		int pares=0;
+		for(int i=0;i<n;i++) {
+			if(numero[i]%2==0) {
+				
+				System.out.printf("NUMEROS PARES: %d\n",numero[i]);
+				pares++;
+				
+			}
+		}
+		
+		System.out.printf("QUANTIDADE DE PARES = %d",pares);
+		sc.close();
+		
+	}
+
+}

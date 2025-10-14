@@ -1,0 +1,56 @@
+package aplicatio;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc=new Scanner(System.in);
+		
+		
+		System.out.println("Quantas pessoas serão digitadas?");
+		int n=sc.nextInt();
+		
+		String[] nome= new String[n];
+		int[] idade= new int[n];
+		double[] altura=new double[n];
+		int eco=0;
+		double alt=0.0;
+		for(int i=0;i<n;i++) {
+			System.out.printf("Dados da %da pessoa:", i+1);
+			System.out.println("\nNome:");
+			sc.nextLine();
+			nome[i]=sc.nextLine();
+			System.out.println("Idade:");
+			idade[i]=sc.nextInt();
+			System.out.println("Altura");
+			altura[i]=sc.nextDouble();	
+			
+			eco+=idade[i];
+			alt+=altura[i];
+		}
+		/*Media Altura */
+		double media=alt/n;
+		System.out.printf("Altura média:%.2f ",media);
+		
+		
+		if (eco<16) {
+			int menores=(eco/n)*100;
+			System.out.printf("Pessoas com menos de 16 anos: %d",menores);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}
