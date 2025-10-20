@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\User\OneDrive\Documentos\MyProjects\Currso_Java\projects_java\ex_matriz02"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
