@@ -40,7 +40,7 @@ public class ex_matriz001 {
 			System.out.print(mat[posicao][posicao]+" ");
 		}
 			
-		 
+		 System.out.println("Esee é teste do meu teclado gamerksksksk ");
 		sc.close();
 
 	}
