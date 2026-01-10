@@ -35,9 +35,9 @@ public class Main {
 		Date ClientBirth= bd.parse(sc.next());
 		
 		Client client= new Client(ClientName,ClientEmail,ClientBirth);
-//		importa o modulo responsavel por guardar os dados do clinte
+//		importa a classe responsavel por guardar os dados do clinte
 
-//coleta dados relacionado ao produto utilizando o modulo "Product" para armazenar
+//coleta dados relacionado ao produto utilizando a classe "Product" para armazenar
 		System.out.println("Status do pedido");
 		 OrderStatus status = OrderStatus.valueOf(sc.next());
 		
