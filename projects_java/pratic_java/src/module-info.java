@@ -1,0 +1,2 @@
+module pratic_java {
+}
