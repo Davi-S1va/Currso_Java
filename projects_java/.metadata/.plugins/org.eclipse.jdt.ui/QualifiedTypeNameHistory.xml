@@ -49,4 +49,5 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
     <fullyQualifiedTypeName name="fatures.ContractService"/>
+    <fullyQualifiedTypeName name="fatures.PaypallService"/>
 </qualifiedTypeNameHistroy>
