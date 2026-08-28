@@ -14,7 +14,7 @@ public class Main {
 		
 		List<Accont>list=new ArrayList<>();
 		
-		System.out.println("Insira a quanntidade de cadastro que deseja calcular:");
+		System.out.println("Insira a quantidade de cadastro que deseja calcular:");
 		int n= sc.nextInt();
 		
 		for(int i=1;i<=n;i++) {
